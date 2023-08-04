@@ -14,7 +14,6 @@ app.use((req, res, next) => {
 
 // Ruta para hacer el proxy a la API de football
 app.get('/api/football', async (req, res) => {
-  console.log("Asdasdadasdas")
   const apiKey = 'fde73b4b026a7d594232c3eb41f1c3f019a36a77b20adfe14842fb1bfc5b7f2f';
   const playerName = req.query.player_name; // Obtén el parámetro del nombre del jugador desde la URL
 
